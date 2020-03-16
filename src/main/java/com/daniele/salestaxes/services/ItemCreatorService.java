@@ -27,7 +27,7 @@ public class ItemCreatorService {
 
         Item perfume2 = new Item(UUID.randomUUID().toString(), "Chanel", "Bottle of Perfume", 0 , true, new BigDecimal("27.99"));
         Item perfume3 = new Item(UUID.randomUUID().toString(), "Armani", "Bottle of Perfume", 0, false, new BigDecimal("18.99"));
-        Medical medical1 = new Medical(UUID.randomUUID().toString(), "Moment", "Packet of headache", 0, false, new BigDecimal("9.75"));
+        Medical medical1 = new Medical(UUID.randomUUID().toString(), "Moment", "Headache pills", 0, false, new BigDecimal("9.75"));
         Food chocolate3 = new Food(UUID.randomUUID().toString(), "Lindt", "Chocolate", 0, true, new BigDecimal("11.25"));
         itemList.add(book1);
         itemList.add(cd1);

@@ -19,14 +19,14 @@ public class TaxCalculationServiceTest {
     TaxCalculationService calculationService = new TaxCalculationService();
 
     @Test
-    public void testImput1(){
+    public void testInput1(){
         BigDecimal prize = new BigDecimal("14.99");
 
         assertEquals("1.50", calculationService.calculate(prize, baseTax).toString());
     }
 
     @Test
-    public void testImput2(){
+    public void testInput2(){
         BigDecimal imprtChocolatePrice = new BigDecimal("10");
         BigDecimal imprtPerfume = new BigDecimal("47.50");
 
@@ -36,7 +36,7 @@ public class TaxCalculationServiceTest {
     }
 
     @Test
-    public void testImput3(){
+    public void testInput3(){
         BigDecimal imprtPerfume = new BigDecimal("27.99");
         BigDecimal perfume = new BigDecimal("18.99");
         BigDecimal imprtChocolate = new BigDecimal("11.25");

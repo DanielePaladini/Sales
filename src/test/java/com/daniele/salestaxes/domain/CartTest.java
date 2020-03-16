@@ -37,7 +37,7 @@ public class CartTest {
     Receipt receipt;
 
     @Test
-    public void testImput1(){
+    public void testInput1(){
         shoppingCart.discardAll();
         shoppingCart.addItem(book1);
         shoppingCart.addItem(cd1);
@@ -51,7 +51,7 @@ public class CartTest {
     }
 
     @Test
-    public void testImput2(){
+    public void testInput2(){
         shoppingCart.discardAll();
         shoppingCart.addItem(chocolate2);
         shoppingCart.addItem(perfume1);
@@ -64,7 +64,7 @@ public class CartTest {
     }
 
     @Test
-    public void testImput3(){
+    public void testInput3(){
         shoppingCart.discardAll();
         shoppingCart.addItem(perfume2);
         shoppingCart.addItem(perfume3);
