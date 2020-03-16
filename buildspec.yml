@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: openjdk8
+
+  pre_build:
+    commands:
+      - mvn test
+
+  build:
+    commands:
+      - mvn clean package -DskipTests --quiet
+
+artifacts:
+  discard-paths: yes
+  files:
+    - target/*
+    - scripts/*
+    - appspec.yml
